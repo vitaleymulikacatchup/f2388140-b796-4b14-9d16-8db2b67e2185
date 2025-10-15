@@ -8,6 +8,7 @@ import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import { Tag } from 'lucide-react';
 
 const assetMap: { id: string; url: string; alt?: string }[] = [
   { id: "hero-img", url: "https://images.pexels.com/photos/6188305/pexels-photo-6188305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A young couple having milkshakes and pizza at a cozy cafe. Relaxed and joyful atmosphere." },
@@ -64,6 +65,7 @@ export default function Home() {
             buttons={[
               { text: "Learn More", href: "about" }
             ]}
+            tagIcon={Tag}
             showBorder={true}
           />
         </div>
