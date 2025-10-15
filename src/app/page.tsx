@@ -65,7 +65,6 @@ export default function Home() {
             buttons={[
               { text: "Learn More", href: "about" }
             ]}
-            tagIcon={Tag}
             showBorder={true}
           />
         </div>
